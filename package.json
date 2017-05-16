@@ -19,7 +19,7 @@
     "build": "lib build",
     "clean": "lib clean",
     "coverage": "lib coverage",
-    "start": "lib start",
+    "start": "lib test -- --watch",
     "test": "lib test"
   }
 }
