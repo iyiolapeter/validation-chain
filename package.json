@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "pfft-preset-lib": "^0.22.0"
+  },
+  "name": "validation-chain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "pfft-partial-ava/config/setup"
+    ]
+  },
+  "scripts": {
+    "build": "lib build",
+    "clean": "lib clean",
+    "coverage": "lib coverage",
+    "start": "lib start",
+    "test": "lib test"
+  }
+}
