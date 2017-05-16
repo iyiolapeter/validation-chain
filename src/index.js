@@ -1,4 +1,7 @@
-module.exports = function lib()
+import Validation from './Validation';
+
+
+export default function validation( validator )
 {
-    return true;
-};
+    return new Validation( validator );
+}
