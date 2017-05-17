@@ -3,7 +3,7 @@
     "pfft-preset-lib": "^0.22.0"
   },
   "name": "validation-chain",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
